@@ -76,7 +76,7 @@
       left: 0;
       width: 50%;
       height: 100%;
-      background-image: url("bulb.jpg");
+      background-image: url("hand_plane.jpg");
       background-size: cover;
       background-position: 60%;
     }
@@ -87,20 +87,30 @@
       line-height: 1.4em;
     }
 
+    #left-side .content {
+        padding: 0 10% 0;
+    }
+
     #right-side {
       position: relative;
       top: 0;
       width: 50%;
       height: 100%;
       transform: translate3d(100%, 0, 0);
-      background: #F2F3F7;
-      color: #757A86;
+      background: rgb(79, 59, 57);
+      color: #FEFEFE;
 
+    }
+
+    #right-side .container {
+        position: relative;
+        padding: 8% 10% 0;
+        width: 100%;
+        height: 100%;
     }
 
     .content {
       position: relative;
-      padding: 0 10% 0;
       width: 100%;
       top: 50vh;
       transform: translateY(-50%);
@@ -114,21 +124,25 @@
       <h1>Coming soon! <br>Or something.</h1>
       <p>Fully customizable industrial furniture. <br>
       Hand made and shipped to your friggin door. Decent!</p>
-      <a class="button">Dingus Now!</a>
+      <!-- <a class="button">Dingus Now!</a> -->
     </div>
   </section>
   <section id="right-side">
-    <div class="content">
-      <h2>START DOING SOME STUFF RIGHT AWAY!</h2>
-      <p>Wanna say hello? Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <input type="text" placeholder="Name: Jungy Brungen" />
-      <input type="text" placeholder="E-mail" />
-      <a class="button">Send Spam Direct</a>
-      
-      <footer>
-        Footer stuff
-      </footer>
+    <div class="container">
+        <img class="logo" src="logo.png"/>
+        <div class="content">
+          
+          <h2>START DOING SOME STUFF RIGHT AWAY!</h2>
+          <p>Wanna say hello? Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <input type="text" placeholder="Name: Jungy Brungen" />
+          <input type="text" placeholder="E-mail" />
+          <a class="button">Send Spam Direct</a>
+          
+<!--           <footer>
+            Footer stuff
+          </footer> -->
 
+        </div>
     </div>
   </section>
 </body>
